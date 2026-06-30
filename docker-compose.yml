@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  xray:
+    image: xiongli870110/qr-online:1.0.0
+    container_name: qrnoline
+    restart: unless-stopped
+    ports:
+      - "9080:80" 
