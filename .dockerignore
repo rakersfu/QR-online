@@ -1,0 +1,5 @@
+.git
+.gitignore
+*.md
+.auditci.json
+QR.code-workspace

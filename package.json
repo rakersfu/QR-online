@@ -1,0 +1,93 @@
+{
+  "name": "@prabasajee/qr-generator",
+  "version": "1.0.0",
+  "description": "A modern, feature-rich QR code generator with customizable colors, sizes, formats, and error correction levels. Built with vanilla HTML, CSS & JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0",
+    "start": "node index.js",
+    "publish:github": "npm publish --registry https://npm.pkg.github.com/",
+    "publish:npm": "npm publish --access public --registry https://registry.npmjs.org/",
+    "serve": "npx http-server . -p 8000 -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prabasajee/QR-generator.git"
+  },
+  "keywords": [
+    "qr-code",
+    "qr-generator",
+    "javascript",
+    "html5",
+    "css3",
+    "web-app",
+    "pwa",
+    "responsive-design",
+    "vanilla-js",
+    "github-pages",
+    "barcode",
+    "mobile-friendly",
+    "accessibility",
+    "modern-ui",
+    "color-customization",
+    "multiple-formats",
+    "error-correction"
+  ],
+  "author": "prabasajee (https://github.com/prabasajee)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prabasajee/QR-generator/issues"
+  },
+  "homepage": "https://prabasajee.github.io/QR-generator",
+  "publishConfig": {
+    "@prabasajee:registry": "https://npm.pkg.github.com"
+  },
+  "files": [
+    "index.js",
+    "index.html",
+    "style_Qr.css",
+    "README.md",
+    "LICENSE",
+    "NPM_README.md"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie <= 11"
+  ],
+  "devDependencies": {},
+  "features": {
+    "qr_generation": "Generate QR codes from text, URLs, emails, phone numbers",
+    "customization": "Custom colors, sizes, error correction levels, formats",
+    "responsive_design": "Mobile-first responsive design",
+    "accessibility": "WCAG compliant with ARIA labels and keyboard navigation",
+    "modern_ui": "Glass morphism design with smooth animations",
+    "real_time": "Auto-generation with debounced input",
+    "sharing": "Native Web Share API support",
+    "validation": "Real-time input validation and error handling"
+  },
+  "techStack": {
+    "frontend": [
+      "HTML5",
+      "CSS3",
+      "Vanilla JavaScript"
+    ],
+    "fonts": [
+      "Google Fonts (Inter)"
+    ],
+    "api": [
+      "QR Server API"
+    ],
+    "deployment": [
+      "GitHub Pages"
+    ],
+    "tools": [
+      "VS Code",
+      "Git"
+    ]
+  }
+}
